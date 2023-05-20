@@ -1,0 +1,113 @@
+* {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+  background-image: url(images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.nav-bar {
+  display: none;
+}
+
+.fa-bars {
+  color: #524c4c;
+  margin: 20px;
+}
+
+.fa-bars:hover {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 15px;
+}
+
+h1 {
+  color: #e64d11;
+  font-size: 36px;
+}
+
+.description {
+  border: 3px solid white;
+  color: #524c4c;
+  padding: 12px;
+  font-size: 17px;
+}
+
+.more {
+  text-decoration: none;
+  color: #524c4c;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.more:hover {
+  text-decoration: underline;
+  padding: 10px;
+  color: rgb(22, 21, 21);
+  background-color: #f1936e;
+  border-radius: 8px;
+}
+
+/* Main products*/
+
+.products {
+  background-image: url(images/products\ bck.png);
+  height: 95vh;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.skincare {
+  display: flex;
+  gap: 8px;
+  background-color: rgb(255, 255, 255, 0.2);
+  padding: 10px;
+  align-items: center;
+  margin: 15px;
+}
+
+.explication {
+  color: #fff;
+  font-size: 15px;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+}
+
+h3 {
+  color: #e64d11;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #e64d11;
+  padding: 20px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: #f1936e;
+  color: #524c4c;
+}
