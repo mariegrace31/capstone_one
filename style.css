@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 * {
   font-family: 'Lato', sans-serif;
   padding: 0;
@@ -11,7 +13,7 @@ header {
   background-image: url(images/background1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
 }
 
 .nav-bar {
@@ -30,25 +32,37 @@ header {
 .main {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
-  margin: 15px;
+  gap: 35px;
+  margin: 18px;
+}
+
+q {
+  color: #ec5242;
+  font-size: 25px;
 }
 
 h1 {
-  color: #e64d11;
+  color: #ec5242;
   font-size: 36px;
 }
 
 .description {
   border: 3px solid white;
-  color: #524c4c;
+  background-color: #f0ecec;
+  color: #272a31;
   padding: 12px;
   font-size: 17px;
 }
 
+.promotion {
+  color: #272a31;
+  font-weight: bold;
+  font-size: 22px;
+}
+
 .more {
   text-decoration: none;
-  color: #524c4c;
+  color: #272a31;
   font-weight: bold;
   font-size: 15px;
 }
@@ -57,7 +71,7 @@ h1 {
   text-decoration: underline;
   padding: 10px;
   color: rgb(22, 21, 21);
-  background-color: #f1936e;
+  background-color: #ec5242;
   border-radius: 8px;
 }
 
@@ -75,13 +89,20 @@ h2 {
   text-align: center;
 }
 
+.title-underline {
+  width: 15%;
+  border: 1px solid #ec5242;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .skincare {
   display: flex;
   gap: 8px;
   background-color: rgb(255, 255, 255, 0.2);
   padding: 10px;
   align-items: center;
-  margin: 15px;
+  margin: 16px;
 }
 
 .explication {
@@ -95,19 +116,286 @@ h2 {
 }
 
 h3 {
-  color: #e64d11;
+  color: #ec5242;
   font-size: 15px;
   font-weight: bold;
 }
 
 .button {
-  background-color: #e64d11;
+  background-color: #ec5242;
   padding: 20px;
   color: #fff;
   font-size: 15px;
+  width: 250px;
 }
 
 .button:hover {
   background-color: #f1936e;
-  color: #524c4c;
+  color: #272a31;
+}
+
+/* Artists */
+
+.arts {
+  color: #111111;
+}
+
+.artists {
+  background-color: #fff;
+}
+
+.artist-description {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px 15px;
+}
+
+.artist-image {
+  width: 115px;
+  height: 190px;
+  border-radius: 6px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #272a31;
+}
+
+figcaption {
+  color: #ec5242;
+  font-size: 15px;
+}
+
+.artist-underline {
+  width: 13%;
+  height: 1%;
+  border: 1px solid #d3d3d3;
+}
+
+.artist-paragraph {
+  font-size: 14px;
+  color: #272a31;
+}
+
+.art-desc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.artist {
+  display: flex;
+  gap: 15px;
+}
+
+.artist-button {
+  padding: 15px;
+  border: 1px solid #d3d3d3;
+  color: #272a31;
+}
+
+.artist-button:hover {
+  border: 2px solid #272a31;
+}
+
+.fa-chevron-down {
+  color: #ec5242;
+  margin: 6px;
+}
+
+/* second page */
+
+.about {
+  background-image: url(images/about\ background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  line-height: 29px;
+}
+
+.main2 {
+  text-align: center;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.slogan {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description2 {
+  background-color: #fff;
+  border: 2px solid #d3d3d3;
+  color: #272a31;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.contact-us {
+  font-size: 16px;
+  color: #272a31;
+}
+
+.mail {
+  color: #272a31;
+  font-weight: bold;
+}
+
+/* logo */
+
+.art {
+  color: #272a31;
+}
+
+.our-logo {
+  text-align: center;
+  height: 60vh;
+}
+
+.paragraphe {
+  color: #272a31;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.logoo {
+  width: 50%;
+  border: 2px solid #d3d3d3;
+}
+
+.logo-description {
+  display: grid;
+  gap: 35px;
+  margin: 13px;
+}
+
+/* awards */
+
+.awards {
+  border-top: 2px solid #d3d3d3;
+  background-color: #fff;
+  text-align: center;
+}
+
+h5 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 145px;
+}
+
+.see-award1 {
+  background: url(images/first\ award.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+  box-shadow: inset 0 0 0 1000px rgb(236, 82, 66, 0.6);
+}
+
+.award {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 15px;
+}
+
+.see-award2 {
+  background: url(images/second\ award.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+  box-shadow: inset 0 0 0 1000px rgb(236, 82, 66, 0.6);
+}
+
+.award-par {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* partners */
+
+.partner {
+  background-color: rgb(17, 17, 17, 0.8);
+  height: 45vh;
+  margin-top: 50px;
+}
+
+.partner-image {
+  width: 70px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.partners {
+  text-align: center;
+}
+
+/* footer */
+
+.LOGO {
+  width: 90px;
+}
+
+.footer {
+  color: #272a31;
+  font-size: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 20vh;
+}
+
+/* DOM */
+
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-menu {
+  background-color: #ec5242;
+  opacity: 0.9;
+  height: 100vh;
+  margin-top: -72px;
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+
+.nav-menu.active {
+  display: block;
+}
+
+.nav-menu ul li {
+  margin: 20px;
+  font-size: 35px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #272a31;
+  font-weight: bold;
+}
+
+.fa-times {
+  color: #272a31;
+  float: right;
+  margin-right: 40px;
+  margin-top: 10px;
 }

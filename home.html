@@ -6,34 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flawless Shop</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
   <header>
     <nav class="nav">
-      <i class="fa fa-bars fa-2x"></i>
+      <i class="fa fa-bars fa-2x" id="bars"></i>
       <div class="nav-bar">
-        <a href=""><img src="images/logo.png">Flawless</a>
+        <a href="home.html"><img src="images/logo.png">Flawless</a>
         <div class="nav-links">
           <a href="#home">Home</a>
           <a href="#products">Our Products</a>
-          <a href="#about">About</a>
+          <a href="about.html">About</a>
         </div>
       </div>
     </nav>
+    <div class="nav-menu">
+      <i class="fa fa-times fa-2x" id="closingIcon"></i>
+      <ul>
+        <li class="mobileLinks"><a href="home.html">Home</a></li>
+        <li class="mobileLinks"><a href="#products">Products</a></li>
+        <li class="mobileLinks"><a href="about.html">About</a></li>
+      </ul>
+    </div>
     <div class="main">
+      <q>Hi there!</q>
       <h1>With Flawless, Glow like never before!</h1>
       <p class="description">
         Looking young and beautiful never comes without using the best cosmetics.
         Here we have compiled the best skincare products by the best brands.
       </p>
+      <p class="promotion">
+        10% OFF FOR FIRST PURCHASE
+      </p>
       <a class="more" href="#viewmore">SEE OUR COLLECTIONS.</a>
     </div>
   </header>
-  <section class="products">
+  <section class="products" id="products">
     <h2>Main Products</h2>
+    <hr class="title-underline">
     <div class="product-list">
       <div class="skincare">
         <img class="product-image" src="images/cleanser.png">
@@ -63,5 +74,32 @@
     </div>
     <button class="button">View more products</button>
   </section>
+  <div class="artists">
+    <h2 class="arts">Our Beautician Artists</h2>
+    <hr class="title-underline">
+    <div class="artist-description">
+      <div class="artist">
+          <img class="artist-image" src="images/Esthetician .png">
+          <div class="art-desc">
+            <h4>Marleine Tshel</h4>
+            <figcaption> <em>Internatioal esthetician and over 8 years of experience.</em></figcaption>
+            <hr class="artist-underline">
+            <p class="artist-paragraph">Finished her esthetician studies and got her certificate in 2012. She provides services for your skin care needs.</p>
+          </div>
+        </div>
+        <div class="artist">
+          <img class="artist-image" src="images/Makeup artist .png">
+          <div class="art-desc">
+            <h4>Anabelle Slovy</h4>
+            <figcaption><em>Part of the DMFA Makeup Academy Tutors at Harvard University</em></figcaption>
+            <hr class="artist-underline">
+            <p class="artist-paragraph">Anabelle have always been passionate about art and one of the most exquisite expressions of makeup. </p>
+          </div>
+        </div>
+        <button class="artist-button">MORE <i class="fa fa-chevron-down"></i></button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
