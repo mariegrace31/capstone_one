@@ -11,15 +11,25 @@
 <body>
   <header>
     <nav class="nav">
-      <i class="fa fa-bars fa-2x" id="bars"></i>
+      <div class="nav-icons">
+        <ul>
+         <li><i class="fa fa-twitter"></i></li> 
+         <li><i class="fa fa-instagram"></i></li> 
+         <li><a href="">French</a></li>
+         <li><a href="">My page</a></li>
+         <li><a href="">Logout</a></li>
+        </ul>
+      </div>
       <div class="nav-bar">
-        <a href="home.html"><img src="images/logo.png">Flawless</a>
+        <a href="home.html"><img class="click" src="images/logo.png"></a>
         <div class="nav-links">
-          <a href="#home">Home</a>
-          <a href="#products">Our Products</a>
-          <a href="about.html">About</a>
+          <a class="LINK" href="about.html">About</a>
+          <a class="LINK" href="#products">Our Products</a>
+          <a class="LINK"href="#Artists">Artists</a>
+          <a href="" class="flawless">FLAWLESS</a>
         </div>
       </div>
+      <i class="fa fa-bars fa-2x" id="bars"></i>
     </nav>
     <div class="nav-menu">
       <i class="fa fa-times fa-2x" id="closingIcon"></i>
@@ -72,9 +82,9 @@
         <p class="explication">Our hair products will strengthen your hair follicles and enhance hair growth.</p>
       </div>
     </div>
-    <button class="button">View more products</button>
+    <a class="button">View more products</a>
   </section>
-  <div class="artists">
+  <div class="artists" id="Artists">
     <h2 class="arts">Our Beautician Artists</h2>
     <hr class="title-underline">
     <div class="artist-description">
@@ -96,8 +106,24 @@
             <p class="artist-paragraph">Anabelle have always been passionate about art and one of the most exquisite expressions of makeup. </p>
           </div>
         </div>
+        </div>
         <button class="artist-button">MORE <i class="fa fa-chevron-down"></i></button>
     </div>
+  </div>
+  <div class="PARTNER">
+    <h2>Partners</h2>
+    <hr class="title-underline">
+    <div class="PARTNERS">
+      <img class="partner-img" src="images/partner1.png">
+      <img class="partner-img" src="images/partner2.png">
+      <img class="partner-img" src="images/partner3.png">
+      <img class="partner-img" src="images/partner4.png">
+      <img class="partner-img" src="images/partner5.png">
+    </div>
+  </div>
+  <div class="Footer">
+    <img class="LOGO2"src="images/our logo.png">
+    <p class="footer2">@Flawless <br> Some Rights Reserved.</p>
   </div>
 
   <script src="js/script.js"></script>

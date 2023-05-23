@@ -11,24 +11,38 @@
 <body>
   <section class="about">
     <nav class="nav">
-      <i class="fa fa-bars fa-2x" id="bars"></i>
+      <div class="nav-icons">
+        <ul>
+         <li><i class="fa fa-twitter"></i></li> 
+         <li><i class="fa fa-instagram"></i></li> 
+         <li><a href="">French</a></li>
+         <li><a href="">My page</a></li>
+         <li><a href="">Logout</a></li>
+        </ul>
+      </div>
       <div class="nav-bar">
-        <a href="home.html"><img src="images/logo.png">Flawless</a>
+        <a href="home.html"><img class="click" src="images/logo.png"></a>
         <div class="nav-links">
-          <ul>
-            <li><a href="home.html">Home</a></li> 
-            <li><a href="#products">Our Products</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
+          <a class="LINK" href="home.html">Home</a>
+          <a class="LINK"href="#Awards">Awards</a>
+          <a href="" class="flawless">FLAWLESS</a>
         </div>
       </div>
+      <div class="navicons">
+        <a href="home.html"><i class="fa fa-home"></i></a>
+        <i class="fa fa-angle-right"></i>
+        <p class="id">purchase</p>
+        <i class="fa fa-angle-right"></i>
+        <p class="id">My orders</p>
+      </div>
+      <i class="fa fa-bars fa-2x" id="bars"></i>
     </nav>
       <div class="nav-menu">
         <i class="fa fa-times fa-2x" id="closingIcon"></i>
         <ul>
           <li class="mobileLinks"><a href="home.html">Home</a></li>
           <li class="mobileLinks"><a href="#products">Products</a></li>
-          <li class="mobileLinks"><a href="about.html">About</a></li>
+          <li class="mobileLinks"><a href="#Awards">Awards</a></li>
         </ul>
       </div>
     <div class="main2">
@@ -52,7 +66,7 @@
       <a href=""><img class="logoo" src="images/logo.png"></a>
     </div>
   </div>
-  <div class="awards">
+  <div class="awards" id="Awards">
     <h2 class="art">Some of our Awards</h2>
     <hr class="title-underline">
       <p class="paragraphe">Take a look at some of the awards we won from the past years.</p>
