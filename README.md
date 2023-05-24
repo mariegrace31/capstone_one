@@ -56,7 +56,7 @@ Install this project with: cd my-project npm install
 - Twitter: [@mariegracebmg](https://twitter.com/mariegracebmg)
 - LinkedIn: [Marie Grace Bahati](https://linkedin.com/in/marie-gr%C3%A2ce-bahati-546765224)
 <!-- LIVE -->
-Live link:
+Live link: https://mariegrace31.github.io/capstone_one/home.html
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
