@@ -76,8 +76,8 @@ h1 {
 
 .products {
   background-image: url(images/products\ bck.png);
-  height: 95vh;
   text-align: center;
+  height: 100vh;
 }
 
 h2 {
@@ -95,16 +95,18 @@ h2 {
 
 .skincare {
   display: flex;
-  gap: 8px;
   background-color: rgb(255, 255, 255, 0.2);
   padding: 10px;
   align-items: center;
-  margin: 16px;
+  justify-content: space-between;
+  margin: 12px;
 }
 
 .explication {
   color: #fff;
   font-size: 15px;
+  text-align: left;
+  max-width: 60%;
 }
 
 .product-image {
@@ -146,6 +148,15 @@ h3 {
   flex-direction: column;
   gap: 40px;
   margin: 40px 15px;
+}
+
+.artist-card {
+  display: none;
+}
+
+.artist-card:first-child,
+.artist-card:nth-child(2) {
+  display: flex;
 }
 
 .artist-image {
@@ -411,6 +422,9 @@ footer {
   margin-top: 10px;
 }
 
+.product-list {
+  margin-bottom: 15px;
+}
 /* Desketop version */
 
 /* first page */
@@ -492,7 +506,7 @@ footer {
     flex-direction: column;
     margin-left: 250px;
     width: 45%;
-    gap: 55px;
+    gap: 35px;
   }
 
   h1 {
@@ -515,15 +529,10 @@ footer {
 
   /* Products */
 
-  .products {
-    height: 80vh;
-  }
-
   .skincare {
     flex-direction: column;
-    width: 14%;
+    width: 16%;
     margin: 3px;
-    height: 300px;
     text-align: center;
   }
 
@@ -538,8 +547,10 @@ footer {
   }
 
   .explication {
-    font-size: 18px;
-    margin-top: 19px;
+    font-size: 14px;
+    /* margin-top: 15px; */
+    max-width: 80%;
+    text-align: center;
   }
 
   .product-image {
