@@ -72,7 +72,7 @@ h1 {
   text-decoration: underline;
 }
 
-/* Main products*/
+/* Main products */
 
 .products {
   background-image: url(images/products\ bck.png);
@@ -136,7 +136,7 @@ h3 {
 /* Artists */
 
 .arts {
-  color: #111111;
+  color: #111;
 }
 
 .artists {
@@ -425,6 +425,7 @@ footer {
 .product-list {
   margin-bottom: 15px;
 }
+
 /* Desketop version */
 
 /* first page */
@@ -548,7 +549,6 @@ footer {
 
   .explication {
     font-size: 14px;
-    /* margin-top: 15px; */
     max-width: 80%;
     text-align: center;
   }
@@ -574,15 +574,16 @@ footer {
     flex-direction: row;
     margin-top: 30px;
     width: 100%;
-    /*justify-content: center;*/
   }
-.artist-wrapper{
-  width: 72%;
+
+  .artist-wrapper {
+    width: 72%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-}
+  }
+
   .artist-card {
     display: flex;
     width: 45%;
