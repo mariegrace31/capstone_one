@@ -561,13 +561,21 @@ footer {
   .artist-description {
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    margin: 40px;
-    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    /*justify-content: center;*/
   }
-
-  .artist {
-    width: 30%;
+.artist-wrapper{
+  width: 72%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+  .artist-card {
+    display: flex;
+    width: 45%;
+    margin: 10px;
   }
 
   .artist-button {
