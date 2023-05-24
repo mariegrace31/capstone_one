@@ -457,7 +457,7 @@ footer {
   .fa-bars {
     display: none;
     visibility: hidden;
-    margin: 0px;
+    margin: 0;
   }
 
   .nav-bar {
@@ -543,7 +543,7 @@ footer {
     margin: 50px;
   }
 
-  .title-underline{
+  .title-underline {
     width: 5%;
   }
 
