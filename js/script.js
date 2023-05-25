@@ -64,7 +64,10 @@ beautician.forEach((beautician) => {
   artistCard.innerHTML = `
     <div class="artist-description">
       <div class="artist">
+      <div class="imgs">
       <img class="artist-image" src="${beautician.image}" alt="artist"/>
+      <img class="back-img" src="images/squre photo.png" alt="background" />
+      </div>
   <div class="art-desc">
     <h4>${beautician.name}</h4>
     <figcaption> <em> ${beautician.description}</em></figcaption>

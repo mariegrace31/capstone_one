@@ -167,6 +167,24 @@ h3 {
   width: 115px;
   height: 190px;
   border-radius: 6px;
+  position: relative;
+  display: block;
+  margin-left: 20px;
+  z-index: 2;
+}
+
+.imgs {
+  display: inline-block;
+  position: relative;
+}
+
+.back-img {
+  width: 18vh;
+  height: 15vh;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 1;
 }
 
 h4 {
@@ -582,7 +600,7 @@ footer {
   .artist-description {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 45px;
     width: 100%;
   }
 
