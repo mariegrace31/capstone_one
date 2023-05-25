@@ -79,16 +79,14 @@ beautician.forEach((beautician) => {
 
 const button = document.querySelector('.artist-button');
 const artistscard = document.querySelectorAll('.artist-card');
-let isExpanded=false;
-button.addEventListener('click',() => {
-  artistscard.forEach((card) =>{
+let isExpanded = false;
+button.addEventListener('click', () => {
+  artistscard.forEach((card) => {
     card.classList.toggle('expand');
-  })
-  isExpanded = !isExpanded
-  console.log(isExpanded)
-  if(isExpanded){
+  });
+  isExpanded = !isExpanded;
+  if (isExpanded) {
     button.innerHTML = 'LESS <i class="fa fa-chevron-up"></i>';
-    
   } else {
     button.innerHTML = 'MORE <i class="fa fa-chevron-down"></i>';
   }
