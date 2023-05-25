@@ -45,6 +45,16 @@ const beautician = [{
   name: 'Van Glor',
   description: 'Part of the DMFA Makeup Academy Tutors at Harvard University.',
   paragraph: 'Van have always been passionate about art and one of the most exquisite expressions of makeup.',
+}, {
+  image: 'images/make up artist.png',
+  name: 'Elizabeth Beth',
+  description: 'Part of the DMFA Makeup Academy Tutors at Harvard University.',
+  paragraph: 'Beth have always been passionate about art and one of the most exquisite expressions of makeup.',
+}, {
+  image: 'images/spa artist.png',
+  name: 'Lauraine Abdob',
+  description: 'Internatioal esthetician and over 8 years of experience.',
+  paragraph: 'Finished her esthetician studies and got her certificate in 2012. She provides services for your skin care needs.',
 }];
 
 const beauticianSec = document.querySelector('.artist-wrapper');
@@ -54,7 +64,7 @@ beautician.forEach((beautician) => {
   artistCard.innerHTML = `
     <div class="artist-description">
       <div class="artist">
-  <img class="artist-image" src="${beautician.image}" />
+  <img class="artist-image" src="${beautician.image}" alt="artist" />
   <div class="art-desc">
     <h4>${beautician.name}</h4>
     <figcaption> <em> ${beautician.description}</em></figcaption>
@@ -65,4 +75,21 @@ beautician.forEach((beautician) => {
   </div> 
   `;
   beauticianSec.appendChild(artistCard);
+});
+
+const button = document.querySelector('.artist-button');
+const artistscard = document.querySelectorAll('.artist-card');
+let isExpanded=false;
+button.addEventListener('click',() => {
+  artistscard.forEach((card) =>{
+    card.classList.toggle('expand');
+  })
+  isExpanded = !isExpanded
+  console.log(isExpanded)
+  if(isExpanded){
+    button.innerHTML = 'LESS <i class="fa fa-chevron-up"></i>';
+    
+  } else {
+    button.innerHTML = 'MORE <i class="fa fa-chevron-down"></i>';
+  }
 });

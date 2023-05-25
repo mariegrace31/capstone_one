@@ -40,7 +40,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: to dowload it or clone it to your machine.
+In order to run this project you need: to download it or clone it to your machine.
 ### Setup
 Clone this repository to your desired folder: https://github.com/mariegrace31/capstone_one.git
 ### Install
@@ -78,7 +78,7 @@ If you like this project, don't hesitate to show your support by liking it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for giving me this opportunity and you too for the time you took going through this project.
+I would like to thank Microverse for giving me this opportunity, many thanks to Cindy Shin the author of the origanl design and you too for the time you took going through this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->

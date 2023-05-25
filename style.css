@@ -151,11 +151,15 @@ h3 {
 }
 
 .artist-card {
-  display: none;
+   display: none; 
 }
 
 .artist-card:first-child,
 .artist-card:nth-child(2) {
+  display: flex;
+}
+
+.artist-card.expand {
   display: flex;
 }
 
@@ -210,7 +214,8 @@ figcaption {
   border: 2px solid #272a31;
 }
 
-.fa-chevron-down {
+.fa-chevron-down,
+.fa-chevron-up {
   color: #ec5242;
   margin: 6px;
 }
@@ -452,6 +457,7 @@ footer {
   .nav-icons a {
     text-decoration: none;
     color: #fff;
+    font-size: 12px;
   }
 
   .fa-bars {
@@ -537,6 +543,10 @@ footer {
     text-align: center;
   }
 
+  .skincare:hover {
+    border: 2px solid #fff;
+  }
+
   .product-list {
     display: flex;
     justify-content: center;
@@ -559,12 +569,12 @@ footer {
   }
 
   .button {
-    padding: 20px;
+    padding: 10px;
     background-color: transparent;
     color: #fff;
-    font-size: 22px;
-    width: 250px;
+    font-size: 25px;
     text-decoration: underline;
+    line-height: 150px;
   }
 
   /* Artists */
@@ -572,12 +582,12 @@ footer {
   .artist-description {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
   }
 
   .artist-wrapper {
-    width: 72%;
+    width: 70%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -587,11 +597,33 @@ footer {
   .artist-card {
     display: flex;
     width: 45%;
-    margin: 10px;
+    margin: 3px;
   }
 
   .artist-button {
     display: none;
+  }
+
+  figcaption {
+    font-size: 13px;
+  }
+
+  .artist-paragraph {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .artist-underline {
+    margin-bottom: 19px;
+  }
+
+  h4 {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .artist-image {
+    height: 25vh;
   }
 
   .PARTNER {
@@ -656,21 +688,21 @@ footer {
 
   .slogan {
     font-size: 60px;
+    line-height: 60px;
   }
 
   .main2 {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 50px;
   }
 
   .description2 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .contact-us {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   /* LOGO */
